@@ -1,2 +1,2 @@
 " really autodetect filetype
-au BufNewFile,BufRead *.wofl setfiletype=workflowish
+au BufNewFile,BufRead *.wofl setf=workflowish
