@@ -2,10 +2,17 @@
 
 Simple TODO manager/plugin/whatever for Vim, inspired by [Workflowy.com](https://workflowy.com/)
 
+github source: sjas/workflowish forked from lukaszkorecki/workflowish
+
+
 ## Screenshot
 
 ![vimshot](http://f.cl.ly/items/3A1n1J1e3m1R2u463a1t/Screen%20shot%202012-03-03%20at%2017.45.35.png)
+This is an old version, now it looks different:
+![current vimshot](http://sjas.de/temp/vimflowy.png)
 
+Support for highlighting + and - lines was added. The ones starting with plus represent urgent tasks for me.
+Also I fixed the autohighlighting based on the .wofl filetype.
 
 ## Why?
 
@@ -53,8 +60,9 @@ Thanks to the long running tradition, *workflowish* files have `.wofl` extension
 
 ## Installing
 
-[Use Tim Pope's Pathogen](https://github.com/tpope/vim-pathogen)
+Pathogen may be fine, but Vundle is the best vim plugin manager ever to be created by man.
 
 # Legal
 
-[WTFPL](http://sam.zoy.org/wtfpl/), but please tell me if you're doing anything with it, k?
+[WTFPL](http://sam.zoy.org/wtfpl/), but please tell me if you're doing anything with it, k? 
+sjas: I believe I did. :)
