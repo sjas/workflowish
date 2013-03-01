@@ -1,1 +1,1 @@
-autocmd BufNewFile,BufRead *.wofl set filetype=workflowish
+autocmd BufNewFile,BufRead *.wofl :se ft=workflowish
